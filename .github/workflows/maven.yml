@@ -16,7 +16,7 @@
 name: Java CI
 
 on: [push, pull_request]
-workflow_dispatch:  # Permite ejecución manual
+
 permissions:
   contents: read
 
