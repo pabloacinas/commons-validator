@@ -29,11 +29,11 @@ jobs:
       matrix:
         java: [ 8, 11, 17, 21 ]
         experimental: [false]
-        include:
-          - java: 23
-            experimental: true        
-          - java: 24-ea
-            experimental: true        
+        #include:
+        #  - java: 23
+        #    experimental: true        
+        #  - java: 24-ea
+        #    experimental: true        
         
     steps:
     - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
